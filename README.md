@@ -1,2 +1,2 @@
-# fig.github.io
+# fi
 Figma logo design 
