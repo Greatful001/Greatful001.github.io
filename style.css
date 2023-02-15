@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8faf5;
+}
+
+/* div */
+.figma-logo{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    animation: log 0.4s infinite alternate ;
+    cursor: pointer;
+}
+
+
+.figma{
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    box-shadow: 3px 5px 12px rgb(126, 126, 126);
+
+}
+
+.left{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+
+.right{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.curve{
+    border-bottom-right-radius: 50px;
+
+}
+
+/* Colors */
+.orange{
+    background: #fB7266;
+}
+.purple{
+    background: #800080;
+}
+.blue{
+    background: #0000ff;
+}
+.green{
+    background: #008000;
+}
+
+
+/* Animation Keyframe */
+
+@keyframes log{
+    100%{
+      margin-top: 40px;
+    }
+}
+
+
+
